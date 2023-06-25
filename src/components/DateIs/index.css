@@ -1,0 +1,25 @@
+.card {
+  border: solid 1px lightgrey;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  font-size: 40px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit {
+  background-color: transparent;
+  border-width: 0;
+  font-size: 30px;
+}
+.box2 {
+  margin-left: 5px;
+}

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-cont {
+  width: 30vw;
+}
+
+.task-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: lightgrey;
+  width: 100%;
+}
+.info-cont {
+  background-color: lightskyblue;
+  padding: 10px;
+}
+.date-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  text-align: right;
+  margin: 10px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.save {
+  width: 70px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  height: 30px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.cancel {
+  width: 70px;
+  height: 30px;
+  background-color: transparent;
+  color: black;
+  border-width: 0;
+  font-weight: bold;
+}
+.delete {
+  background-color: transparent;
+  font-size: 30px;
+  border-width: 0;
+}
